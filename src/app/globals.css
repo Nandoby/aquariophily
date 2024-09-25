@@ -25,3 +25,23 @@ body {
     text-wrap: balance;
   }
 }
+
+.list {
+  @apply list-disc list-inside marker:text-red-600 *:my-3
+}
+
+.h1 {
+  @apply text-2xl font-bold my-6 text-center
+}
+
+.h2 {
+  @apply text-lg font-semibold my-6;
+}
+
+p {
+  @apply my-3
+}
+
+.important {
+  @apply text-red-600 font-semibold
+}
