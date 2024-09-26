@@ -5,13 +5,15 @@ import { usePathname } from "next/navigation";
 
 type Props = {
   links: LinksProps[];
+  title: string;
 };
 
-const Aside = ({ links }: Props) => {
+const Aside = ({ links, title }: Props) => {
   const pathname = usePathname();
 
   return (
     <aside className="p-4 absolute">
+      <h2 className="text-lg font-semibold">{title}</h2>
       <nav>
         <ul className="menu">
           {links.map((link, index) =>
@@ -25,7 +27,8 @@ const Aside = ({ links }: Props) => {
                         <li key={idx}>
                           <Link
                             className={clsx("", {
-                              "!bg-blue-500 !text-blue-50 !font-semibold": pathname === item.url,
+                              "!bg-blue-500 !text-blue-50 !font-semibold":
+                                pathname === item.url,
                             })}
                             href={item.url}
                           >
@@ -41,7 +44,8 @@ const Aside = ({ links }: Props) => {
               <li>
                 <Link
                   className={clsx("", {
-                    "!bg-blue-500 !text-blue-50 !font-semibold": pathname === link.url,
+                    "!bg-blue-500 !text-blue-50 !font-semibold":
+                      pathname === link.url,
                   })}
                   href={link.url}
                 >

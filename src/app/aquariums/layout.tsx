@@ -10,7 +10,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
 
   return (
     <div className="flex">
-      <Aside links={links} />
+      <Aside links={links} title="L'aquarium" />
       <div className="container w-[1000px] mx-auto">{children}</div>
     </div>
   );

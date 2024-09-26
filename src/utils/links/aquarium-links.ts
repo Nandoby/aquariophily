@@ -29,6 +29,10 @@ export const AquariumLinks: LinksProps[] = [
           {
             title: "Réalisation",
             url: "/aquariums/cuve/realisation-cuve"
+          },
+          {
+            title: "Q/R",
+            url: "/aquariums/cuve/qr-cuve"
           }
         ],
       },
