@@ -27,7 +27,7 @@ body {
 }
 
 .list {
-  @apply list-disc list-inside marker:text-red-600 *:my-3
+  @apply list-disc marker:text-red-600 *:my-3
 }
 
 .h1 {

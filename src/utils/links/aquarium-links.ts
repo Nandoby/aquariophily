@@ -36,6 +36,15 @@ export const AquariumLinks: LinksProps[] = [
           }
         ],
       },
+      {
+        firstTitle: "Eclairage",
+        links: [
+          {
+            title: "Lumière",
+            url: "/aquariums/eclairage/lumiere"
+          }
+        ]
+      }
     ],
   },
 ];
