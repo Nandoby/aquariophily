@@ -6,6 +6,7 @@ export const AquariumLinks: LinksProps[] = [
     url: "/aquariums/aquarium/les-aquariums",
   },
   {
+    url: "#",
     subLinks: [
       {
         firstTitle: "Cuve",
@@ -16,24 +17,24 @@ export const AquariumLinks: LinksProps[] = [
           },
           {
             title: "Dimensions",
-            url: "/aquariums/cuve/dimensions-cuve"
+            url: "/aquariums/cuve/dimensions-cuve",
           },
           {
             title: "Maintenance",
-            url: "/aquariums/cuve/entretien-cuve"
+            url: "/aquariums/cuve/entretien-cuve",
           },
           {
             title: "Réparation",
-            url: "/aquariums/cuve/reparation-cuve"
+            url: "/aquariums/cuve/reparation-cuve",
           },
           {
             title: "Réalisation",
-            url: "/aquariums/cuve/realisation-cuve"
+            url: "/aquariums/cuve/realisation-cuve",
           },
           {
             title: "Q/R",
-            url: "/aquariums/cuve/qr-cuve"
-          }
+            url: "/aquariums/cuve/qr-cuve",
+          },
         ],
       },
       {
@@ -41,10 +42,31 @@ export const AquariumLinks: LinksProps[] = [
         links: [
           {
             title: "Lumière",
-            url: "/aquariums/eclairage/lumiere"
-          }
-        ]
-      }
+            url: "/aquariums/eclairage/lumiere",
+          },
+          {
+            subLinks: [
+              {
+                firstTitle: "Energie lumineuse",
+                links: [
+                  {
+                    title: "Puissance et flux",
+                    url: "/aquariums/eclairage/puissance-flux",
+                  },
+                  {
+                    title: "Spectre lumineux",
+                    url: "/aquariums/eclairage/spectre-lumineux",
+                  },
+                  {
+                    title: "Durée de vie",
+                    url: "/aquariums/eclairage/duree-vie-eclairage",
+                  },
+                ],
+              },
+            ],
+          },
+        ],
+      },
     ],
   },
 ];

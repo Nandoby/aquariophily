@@ -5,7 +5,8 @@ type SubLinks = {
 
 type Links = {
   title?: string;
-  url: string;
+  url?: string;
+  subLinks?: SubLinks[]
 };
 
 export type LinksProps = {
