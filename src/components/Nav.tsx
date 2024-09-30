@@ -23,6 +23,9 @@ const Nav = () => {
                 <li>
                   <Link href="/aquariums/cuve/la-cuve">Cuve</Link>
                 </li>
+                <li>
+                  <Link href="/aquariums/eclairage/lumiere">Eclairage</Link>
+                </li>
               </ul>
             </details>
           </li>

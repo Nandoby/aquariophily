@@ -45,6 +45,10 @@ export const AquariumLinks: LinksProps[] = [
             url: "/aquariums/eclairage/lumiere",
           },
           {
+            title: "Système d'éclairage",
+            url: "/aquariums/eclairage/objectif-eclairage"
+          },
+          {
             subLinks: [
               {
                 firstTitle: "Energie lumineuse",

@@ -28,7 +28,7 @@ const Aside = ({ links, title }: Props) => {
                     <li key={subIndex}>
                       <Link
                         className={clsx("", {
-                          "!bg-blue-500 !text-blue-50 !font-semibold":
+                          "!text-blue-500 !font-semibold":
                             pathname === sublinkItem.url,
                         })}
                         href={sublinkItem.url || ""}
@@ -45,7 +45,7 @@ const Aside = ({ links, title }: Props) => {
           // Si l'élément n'a pas de sous-lien, on génère un lien simple
           <Link
             className={clsx("", {
-              "!bg-blue-500 !text-blue-50 !font-semibold":
+              "!text-blue-500 !font-semibold":
                 pathname === link.url,
             })}
             href={link.url || ""}
