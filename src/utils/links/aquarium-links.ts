@@ -73,6 +73,10 @@ export const AquariumLinks: LinksProps[] = [
                   {
                     title: "Les différentes sources",
                     url: "/aquariums/eclairage/les-sources-lumineuses"
+                  },
+                  {
+                    title: "Fluorescence",
+                    url: "/aquariums/eclairage/tubes-fluo"
                   }
                 ]
               }
