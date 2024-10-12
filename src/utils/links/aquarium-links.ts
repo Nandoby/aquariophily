@@ -46,7 +46,7 @@ export const AquariumLinks: LinksProps[] = [
           },
           {
             title: "Système d'éclairage",
-            url: "/aquariums/eclairage/objectif-eclairage"
+            url: "/aquariums/eclairage/objectif-eclairage",
           },
           {
             subLinks: [
@@ -72,18 +72,22 @@ export const AquariumLinks: LinksProps[] = [
                 links: [
                   {
                     title: "Les différentes sources",
-                    url: "/aquariums/eclairage/les-sources-lumineuses"
+                    url: "/aquariums/eclairage/les-sources-lumineuses",
                   },
                   {
                     title: "Fluorescence",
-                    url: "/aquariums/eclairage/tubes-fluo"
+                    url: "/aquariums/eclairage/tubes-fluo",
                   },
                   {
                     title: "LED",
-                    url: "/aquariums/eclairage/led"
-                  }
-                ]
-              }
+                    url: "/aquariums/eclairage/led",
+                  },
+                  {
+                    title: "Décharge",
+                    url: "/aquariums/eclairage/lampes-decharge",
+                  },
+                ],
+              },
             ],
           },
         ],
