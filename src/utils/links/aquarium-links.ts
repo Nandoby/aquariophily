@@ -77,6 +77,10 @@ export const AquariumLinks: LinksProps[] = [
                   {
                     title: "Fluorescence",
                     url: "/aquariums/eclairage/tubes-fluo"
+                  },
+                  {
+                    title: "LED",
+                    url: "/aquariums/eclairage/led"
                   }
                 ]
               }
