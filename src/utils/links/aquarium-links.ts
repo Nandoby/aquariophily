@@ -98,6 +98,10 @@ export const AquariumLinks: LinksProps[] = [
             title: "Maintenance",
             url: "/aquariums/eclairage/maintenance-eclairage",
           },
+          {
+            title: "Installation",
+            url: "/aquariums/eclairage/installation-eclairage",
+          },
         ],
       },
     ],
