@@ -12,6 +12,9 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      listStyleType: {
+        square: 'square'
+      }
     },
   },
   plugins: [require("daisyui")],
