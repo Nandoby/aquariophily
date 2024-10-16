@@ -104,6 +104,15 @@ export const AquariumLinks: LinksProps[] = [
           },
         ],
       },
+      {
+        firstTitle: "Galerie",
+        links: [
+          {
+            title: "Une galerie",
+            url: "/aquariums/galerie/une-galerie",
+          },
+        ],
+      },
     ],
   },
 ];
