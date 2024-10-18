@@ -29,6 +29,9 @@ const Nav = () => {
                 <li>
                   <Link href="/aquariums/galerie/une-galerie">Galerie</Link>
                 </li>
+                <li>
+                  <Link href="/aquariums/sous-sol/le-sous-sol">Sous-sol</Link>
+                </li>
               </ul>
             </details>
           </li>

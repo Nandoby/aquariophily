@@ -117,6 +117,15 @@ export const AquariumLinks: LinksProps[] = [
           },
         ],
       },
+      {
+        firstTitle: "Sous-sol",
+        links: [
+          {
+            title: "Le sous-sol",
+            url: "/aquariums/sous-sol/le-sous-sol"
+          }
+        ]
+      }
     ],
   },
 ];
