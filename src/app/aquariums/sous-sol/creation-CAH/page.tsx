@@ -183,54 +183,55 @@ const CreationCAHPage = () => {
       </ul>
 
       <h3 className="my-3 text-lg font-bold">Étapes de préparation :</h3>
+      <ul className="ml-4 list-decimal *:my-3">
+        <li>
+          <strong>Mélange et homogénéisation</strong> : Mélangez bien tous les
+          composants à sec, puis humidifiez légèrement pour obtenir une
+          consistance qui peut être déposée sans excès.
+        </li>
+        <li>
+          <strong>Mise en place</strong> : Étalez le mélange en fine couche dans
+          le fond de l&apos;aquarium, puis tassez doucement pour éviter la
+          formation de poches d&apos;air ou d&apos;eau. Il est essentiel de
+          conserver un sol suffisamment meuble pour favoriser la circulation de
+          l&apos;eau et de l&apos;oxygène, nécessaires au bon développement des
+          racines.
+        </li>
+        <li>
+          <strong>Éléments supplémentaires</strong> :
+          <ul className="ml-4 list-disc">
+            <li>
+              Si l&apos;humus est de qualité incertaine,{" "}
+              <strong>ajoutez un peu de charbon actif</strong> pour prévenir les
+              risques de fermentation.
+            </li>
+            <li>
+              Pour améliorer l&apos;ancrage des plantes, intégrez de la{" "}
+              <strong>pouzzolane</strong>, une roche volcanique à structure
+              alvéolaire.
+            </li>
+            <li>
+              Afin de stimuler la croissance des bactéries, ajoutez des{" "}
+              <strong>matériaux volcaniques poreux</strong>, tels que de la
+              zéolite ou de la pouzzolane.
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <h4 className="my-3 text-base font-bold">Épaisseur du substrat :</h4>
       <p className="p">
-        <ul className="ml-4 list-decimal *:my-3">
-          <li>
-            <strong>Mélange et homogénéisation</strong> : Mélangez bien tous les
-            composants à sec, puis humidifiez légèrement pour obtenir une
-            consistance qui peut être déposée sans excès.
-          </li>
-          <li>
-            <strong>Mise en place</strong> : Étalez le mélange en fine couche
-            dans le fond de l&apos;aquarium, puis tassez doucement pour éviter la
-            formation de poches d&apos;air ou d&apos;eau. Il est essentiel de conserver un
-            sol suffisamment meuble pour favoriser la circulation de l&apos;eau et de
-            l&apos;oxygène, nécessaires au bon développement des racines.
-          </li>
-          <li>
-            <strong>Éléments supplémentaires</strong> :
-            <ul className="ml-4 list-disc">
-              <li>
-                Si l&apos;humus est de qualité incertaine,{" "}
-                <strong>ajoutez un peu de charbon actif</strong> pour prévenir
-                les risques de fermentation.
-              </li>
-              <li>
-                Pour améliorer l&apos;ancrage des plantes, intégrez de la{" "}
-                <strong>pouzzolane</strong>, une roche volcanique à structure
-                alvéolaire.
-              </li>
-              <li>
-                Afin de stimuler la croissance des bactéries, ajoutez des{" "}
-                <strong>matériaux volcaniques poreux</strong>, tels que de la
-                zéolite ou de la pouzzolane.
-              </li>
-            </ul>
-          </li>
-        </ul>
-        <h4 className="my-3 text-base font-bold">Épaisseur du substrat :</h4>
-        <p className="p">
-          Les aquariums néerlandais recommandent une épaisseur de{" "}
-          <strong>10 cm</strong> pour une durée de vie de dix ans, à raison d&apos;un
-          an par centimètre de substrat.
-        </p>
+        Les aquariums néerlandais recommandent une épaisseur de{" "}
+        <strong>10 cm</strong> pour une durée de vie de dix ans, à raison
+        d&apos;un an par centimètre de substrat.
       </p>
+
       <h3 className="my-3 text-lg font-bold">Risques de colmatage :</h3>
       <p className="p">
-        Le C.A.H. peut se compacter, réduisant ainsi la circulation de l&apos;eau et
-        entraînant la formation de gaz sulfurique, nuisible aux plantes et aux
-        poissons. Ce problème est souvent causé par un excès d&apos;argile ou un
-        substrat trop tassé. Pour y remédier, il suffit d&apos;
+        Le C.A.H. peut se compacter, réduisant ainsi la circulation de
+        l&apos;eau et entraînant la formation de gaz sulfurique, nuisible aux
+        plantes et aux poissons. Ce problème est souvent causé par un excès
+        d&apos;argile ou un substrat trop tassé. Pour y remédier, il suffit
+        d&apos;
         <strong>aérer le sous-sol</strong> régulièrement.
       </p>
       <p className="p">

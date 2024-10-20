@@ -133,6 +133,10 @@ export const AquariumLinks: LinksProps[] = [
                     title: "Création",
                     url: "/aquariums/sous-sol/creation-CAH",
                   },
+                  {
+                    title: "Composition",
+                    url: "/aquariums/sous-sol/composition-sol-CAH",
+                  },
                 ],
               },
             ],
